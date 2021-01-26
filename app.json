@@ -1,0 +1,33 @@
+{
+    "name": "RSS-to-Telegram-Bot",
+    "description": "telegram rss bot",
+    "keywords": [
+        "RSS",
+        "telegram",
+        "bot"
+    ],
+    "repository": "https://github.com/BoKKeR/RSS-to-Telegram-Bot",
+    "website": "https://github.com/BoKKeR/RSS-to-Telegram-Bot",
+    "env": {
+        "TOKEN": {
+            "description": "Get this from https://t.me/botfather",
+            },
+        "CHATID": {
+            "description": "Your group's ID",
+            },
+        "DELAY": {
+            "description": "delay between posts",
+            "value": 60
+            }
+    },
+    "addons": [],
+    "buildpacks": [
+        {"url": "heroku/python"}
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
