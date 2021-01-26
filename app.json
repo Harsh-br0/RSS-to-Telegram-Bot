@@ -1,5 +1,5 @@
 {
-    "name": "RSS-to-Telegram-Bot",
+    "name": "RSS to Telegram Bot",
     "description": "telegram rss bot",
     "keywords": [
         "RSS",
@@ -11,13 +11,13 @@
     "website": "https://github.com/BoKKeR/RSS-to-Telegram-Bot",
     "env": {
         "TOKEN": {
-            "description": "Get this from https://t.me/botfather",
+            "description": "Get this from https://t.me/botfather"
             },
         "CHATID": {
-            "description": "Your group's ID",
+            "description": "Your group's ID"
             },
         "DELAY": {
-            "description": "delay between posts",
+            "description": "delay between posts requests",
             "value": "60"
             }
     },
