@@ -7,6 +7,7 @@
         "bot"
     ],
     "repository": "https://github.com/BoKKeR/RSS-to-Telegram-Bot",
+    "logo": "https://github.com/BoKKeR/RSS-to-Telegram-Bot/raw/master/rsstt.png",
     "website": "https://github.com/BoKKeR/RSS-to-Telegram-Bot",
     "env": {
         "TOKEN": {
